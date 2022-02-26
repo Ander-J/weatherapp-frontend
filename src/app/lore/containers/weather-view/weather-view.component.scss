@@ -1,0 +1,68 @@
+div.weatherDetails {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    height: 67%;
+    width: 100%;
+    background-image: url("/assets/weatherBg/Cloudy.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: whitesmoke;
+}
+
+.mainDetails{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4em;
+    margin-left: 4em;
+    background: transparent;
+}
+
+.mainInfo{
+    width: 45%;
+    /* padding-top: 2em; */
+    font-size: 300%;
+}
+
+.secInfo{
+    width: 45%;
+    font-size: 250%;
+}
+
+/* .degrees {
+    width: 50%;
+    padding-top: 2em;
+    font-size: 300%;
+} */
+
+.otherDetails{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 4em;
+    margin-left: 4em;
+    background: transparent;
+}
+
+.extraDetails{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    background: transparent;
+}
+
+.secondaryDetails{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4em;
+    background: transparent;
+}
+
+.details{
+    width: 45%;
+    font-size: 100%;
+}
+
+

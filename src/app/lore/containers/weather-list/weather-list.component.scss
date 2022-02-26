@@ -1,0 +1,45 @@
+table {
+    width: 100%;
+    min-width: 50em;
+}
+
+.data-table {
+	/* padding: 2em;
+	padding-top: 1em; */
+    max-height: 24%;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: grey;
+    border-radius: 5px;
+}
+
+.w-75 {
+	width: 75px;
+}
+
+tr.mat-row:hover {
+	background: rgb(85, 50, 65);
+}
+
+.weather-view{
+    visibility: hidden;
+}
+
+.expansion-row{
+    display: table-cell;
+}
+
+.add-btn{
+    /* padding: 1em; */
+    background: #c2185b;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #c2185b;
+    margin-left: 1em;
+}

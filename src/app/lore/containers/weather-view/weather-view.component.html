@@ -1,0 +1,24 @@
+<div class="weatherDetails" [ngStyle]="{'background-image': 'url(' + bgImage + ')'}">
+    <div class="mainDetails">
+        <h1 class="mainInfo">{{ weather.location }}</h1>
+        <h1 class="mainInfo">{{ weather.temp}} C°</h1>
+    </div>
+    <div class="secondaryDetails">
+        <p class="details">{{weather.longName}}</p>
+        <p class="details">{{weather.weatherDesc}}</p>
+    </div>
+    <div class="otherDetails">
+        <div class="extraDetails">
+            <h1 class="secInfo">Details:</h1>
+            <p class="details">Humidity: {{weather.humidity}}%</p>
+            <p class="details">Wind speed: {{weather.windSpeed}}m/s</p>
+        </div>
+        <div class="extraDetails">
+            <h1 class="secInfo">Today:</h1>
+            <p class="details">Minimum temperature: {{weather.minTemp}} C°</p>
+            <p class="details">Maximum temperature: {{weather.maxTemp}} C°</p>
+            <p class="details">Percipitation: {{weather.dailyPOP}}%</p>
+            <p class="details">Clouds: {{weather.dailyClouds}}%</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button class="menu-icon" aria-label="Button to open menu" matRipple [matRippleRadius]=50
+    [matRippleCentered]=true [matMenuTriggerFor]="menuIcon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <!-- <mat-menu #menuIcon="matMenu">
+    <button mat-menu-item [matMenuTriggerFor]="theme"  class="menuItem"><span>Theme</span></button>
+    <button mat-menu-item  class="menuItem">Something here</button>
+  </mat-menu>
+  <mat-menu #theme="matMenu">
+    <button mat-menu-item><span class="menuItem">Light theme</span></button>
+    <button mat-menu-item  class="menuItem">Dark theme</button>
+  </mat-menu> -->
+  <span class="title">Weather Application</span>
+  <span class="spacer"></span>
+</mat-toolbar>
+
+<router-outlet></router-outlet>
+
+<div class="footer">
+  <a href="https://github.com/Ander-J" target="_blank">Ander Jorš 2022</a>
+</div>
