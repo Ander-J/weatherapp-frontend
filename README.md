@@ -2,7 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.5.
 
-It is also hosted in combination with the backend on Google Cloud [here](https://ang-weatherapp.web.app/), make sure to give the backend time (about 30 sec) to start up.
+It is also hosted in combination with the backend on Google Cloud [here](https://ang-weatherapp.web.app/), make sure to give the backend time to start up.
+
+You know the backend is up when the table populates with example data.
 
 ## Development server
 
